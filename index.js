@@ -32,9 +32,6 @@ module.exports = class PendingDefault extends Plugin {
 
       return res;
     });
-
-    // (Is this needed for getModuleByDisplayName?)
-    TabBar.displayName = 'TabBar';
   }
 
   pluginWillUnload() {
